@@ -1,16 +1,16 @@
-<div class="relative min-h-screen py-4 md:py-16 px-4 mx-auto max-w-6xl leading-6 text-gray-900 border-0 border-gray-900 border-solid box-border bg-cover bg-no-repeat" style="background: url('{{ asset('splatter.jpeg') }}')">
+<div class="relative min-h-screen py-4 md:py-16 px-4 mx-auto max-w-6xl leading-6 text-gray-900 border-0 border-gray-900 border-solid box-border bg-cover bg-no-repeat" style="background: url('{{ asset('images/splatters/splatter.jpeg') }}')">
 
     <div class="hidden md:block absolute -top-10 -left-20 z-0">
-        <img src="{{ asset('assets/5.png') }}" alt="">
+        <img src="{{ asset('images/assets/5.png') }}" alt="floating dark triangles">
     </div>
 
     <div class="hidden md:block absolute bottom-10 -right-20 z-0">
-        <img src="{{ asset('assets/6.png') }}" alt="">
+        <img src="{{ asset('images/assets/6.png') }}" alt="floating dark triangle">
     </div>
 
     <div class="flex justify-center mb-4 md:mb-20">
         <h2 style="right: -1rem; bottom: -1.5rem; text-shadow: rgb(138,124,174) 3px 3px; line-height: 72px;transform: translateX(0px) translateY(0px) rotate(-2deg) skewX(0deg) skewY(0deg) scaleX(1) scaleY(1);"
-            class="inline-block py-1 px-10 my-8 mx-0 text-4xl md:text-5xl lg:text-6xl leading-none text-center uppercase font-extrabold tracking-tighter text-center text-gray-50 bg-purple-700 bg-opacity-50 border-0 border-gray-900 border-solid box-border" >
+            class="inline-block py-1 px-10 my-8 mx-0 text-4xl md:text-5xl lg:text-7xl leading-none text-center uppercase font-extrabold tracking-tighter text-center text-gray-50 bg-purple-700 bg-opacity-50 border-0 border-gray-900 border-solid box-border" >
             How I add value to teams
         </h2>
     </div>

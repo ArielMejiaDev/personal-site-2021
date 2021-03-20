@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Landing\ContactFormController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,6 +23,10 @@ Route::view('/about-me', 'about-me')->name('about-me');
 Route::view('/portfolio', 'portfolio')->name('portfolio');
 
 Route::view('/contact', 'contact')->name('contact');
+
+Route::post('/contact/store', ContactFormController::class);
+
+Route::view('/offline', 'vendor/laravelpwa/offline');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

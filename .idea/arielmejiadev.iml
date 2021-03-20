@@ -114,6 +114,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/simple-cache" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/breeze" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/artesaos/seotools" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/silviolleite/laravelpwa" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
