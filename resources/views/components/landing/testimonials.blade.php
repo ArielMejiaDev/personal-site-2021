@@ -5,7 +5,7 @@
     </div>
 
     <div class="hidden md:block absolute bottom-10 -right-20 z-0">
-        <img src="{{ asset('images/assets/6.png') }}" alt="floating dark triangle">
+        <img src="{{ asset('images/assets/6.png') }}" alt="floating dark triangle" loading="lazy">
     </div>
 
     <div class="flex justify-center mb-4 md:mb-20">
