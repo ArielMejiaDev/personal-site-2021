@@ -16,7 +16,7 @@ return [
         'image' => 'recaudar.png',
         'url' => 'https://recaudar.org',
         'description' => 'SaaS that allows non profits to get donations online by adding web profiles with subdomains, themes & subscription plans.',
-        'technologies' => ['Laravel', 'Vue', 'Inertia', 'Alphine', 'Tailwind'],
+        'technologies' => ['Laravel', 'Vue', 'Inertia', 'Alpine', 'Tailwind'],
     ],
     [
         'title' => 'Losa Group mobile & backend app',
